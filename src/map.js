@@ -7,15 +7,15 @@ import * as ui from './ui';
 
 
 // Los Angeles is the center of the universe
-const INIT_COORDS = [34.0522, -118.243];
+const INIT_COORDS = [50, 19];
 
 
 const DEFAULT_OPTIONS = {
-    theme: 'CartoDB.DarkMatter',
+    theme: 'Esri.WorldImagery',
     lineOptions: {
-        color: '#0CB1E8',
+        color: '#FF0000',
         weight: 1,
-        opacity: 0.5,
+        opacity: 0.75,
         smoothFactor: 1,
         overrideExisting: true,
         detectColors: true,
